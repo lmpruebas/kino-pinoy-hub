@@ -1,0 +1,24 @@
+{
+  "id": "com.pinoymoviehubs.plugin",
+  "version": "1.0.0",
+  "name": "Pinoy Movies Hub",
+  "description": "Películas y series filipinas gratis, en inglés y tagalo.",
+  "entry": "plugin.js",
+  "icon": "icon.png",
+  "apiVersion": 6,
+  "hosts": [
+    "pinoymoviehubs.com",
+    "vidhide.com",
+    "vidhidepro.com",
+    "streamtape.com",
+    "doodstream.com",
+    "mixdrop.co",
+    "voe.sx",
+    "filelions.com",
+    "lulustream.com",
+    "fembed.com",
+    "streamsb.net"
+  ],
+  "capabilities": ["search", "resolve"],
+  "browser": true
+}
